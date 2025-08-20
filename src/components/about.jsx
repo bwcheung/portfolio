@@ -1,3 +1,5 @@
+import { ImageAnimation } from "./ui/imageAnimation"
+
 export const About = () => {
   return (
     <section className="py-20 px-6 bg-gradient-subtle">
@@ -30,8 +32,11 @@ export const About = () => {
             </div>
           </div>
 
-          <div className="grid sm:grid-cols-2 gap-6">
-            <img></img>
+          <div className="grid gap-6 grid-cols-[350px_350px]">
+            <ImageAnimation base="/images/fukurou-front.jpg" hover="/images/fukurou-back.jpg" name="Fukurou" />
+            <ImageAnimation base="/images/mode65-front.jpg" hover="/images/mode65-back.jpg" name="Mode65" />
+            <ImageAnimation base="/images/tkl-front.jpg" hover="/images/tkl-back.jpg" name="ClassicTKL" />
+            <ImageAnimation base="/images/zoom75-front.jpg" hover="/images/zoom75-back.jpg" name="Zoom75" />
           </div>
         </div>
       </div>

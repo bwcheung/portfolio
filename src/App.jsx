@@ -6,7 +6,7 @@ import { About } from './components/about'
 
 function App() {
   return (
-    <div className='min-h-screen w-screen'>
+    <div className='min-h-screen'>
       <Main />
       <About />
       <Skills />

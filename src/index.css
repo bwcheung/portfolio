@@ -73,3 +73,9 @@
 .bg-gradient-subtle {
   background: var(--color-gradient-subtle);
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 350px 350px; /* Three columns with different sizing */
+  grid-gap: 10px; /* 10px gap between rows and columns */
+}
