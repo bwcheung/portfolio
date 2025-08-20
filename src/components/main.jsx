@@ -1,6 +1,4 @@
 import { getIcon } from "../utils/iconHelper"
-import GitHubSVG from "../assets/github-mark-white.svg"
-import InPNG from "../assets/inBug-White.png"
 
 export const Main = () => {
   return (
@@ -31,14 +29,14 @@ export const Main = () => {
               className="text-gray-300 hover:text-accent"
               aria-label="GitHub Profile"
             >
-              <img src={GitHubSVG} width={24} height={24}></img>
+              <img src="/images/github-mark-white.png" width={24} height={24}></img>
             </a>
             <a 
               href="https://www.linkedin.com/in/bwcheung/" 
               className="text-gray-300 hover:text-accent"
               aria-label="LinkedIn Profile"
             >
-              <img src={InPNG} width={24} height={24}></img>
+              <img src="/images/inbug-white.png" width={24} height={24}></img>
             </a>
             <a 
               href="mailto:bwcheung8@gmail.com" 
