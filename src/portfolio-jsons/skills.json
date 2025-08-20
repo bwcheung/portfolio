@@ -1,0 +1,22 @@
+[
+  {
+    "primary": "Frontend Development",
+    "skills": ["React", "Javascript", "Tailwind CSS", "LESS"],
+    "icon": "Code"
+  },
+  {
+    "primary": "Backend Development",
+    "skills": ["PHP", "Python", "Java", "MYSQL", "Ruby", "Rest APIs"],
+    "icon": "Server"
+  },
+  {
+    "primary": "AI Integration",
+    "skills": ["OpenAI APIs", "Prompt Engineering", "AI-Driven Features"],
+    "icon": "Zap"
+  },
+  {
+    "primary": "Soft Skills",
+    "skills": ["Communication", "Problem Solving", "Teamwork", "Agile", "Time Management"],
+    "icon": "Users"
+  }
+]

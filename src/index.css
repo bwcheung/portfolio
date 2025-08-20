@@ -1,70 +1,75 @@
 @import "tailwindcss";
 
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@theme {
+  /* Accent - Vibrant cyan for highlights */
+  --color-accent: hsl(189 84% 53%);
+  --color-accent-foreground: hsl(0 0% 100%);
+  --color-accent-glow: hsl(189 84% 63%);
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* Base colors - Clean whites and deep grays */
+  --color-background: hsl(0 0% 100%);
+  --color-foreground: hsl(220 13% 18%);
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* Card system - Elevated surfaces */
+  --color-card: hsl(0 0% 100%);
+  --color-card-foreground: hsl(220 13% 18%);
+  --color-card-elevated: hsl(220 13% 99%);
+
+  /* Interactive surfaces */
+  --color-popover: hsl(0 0% 100%);
+  --color-popover-foreground: hsl(220 13% 18%);
+
+  /* Primary brand - Professional blue-gray */
+  --color-primary: hsl(220 13% 18%);
+  --color-primary-foreground: hsl(0 0% 100%);
+  --color-primary-hover: hsl(220 13% 25%);
+
+  /* Secondary - Light neutral */
+  --color-secondary: hsl(220 13% 96%);
+  --color-secondary-foreground: hsl(220 13% 18%);
+  --color-secondary-hover: hsl(220 13% 92%);
+
+  /* Muted elements */
+  --color-muted: hsl(220 13% 96%);
+  --color-muted-foreground: hsl(220 9% 46%);
+
+  /* Accent - Vibrant cyan for highlights */
+  --color-accent: hsl(189 84% 53%);
+  --color-accent-foreground: hsl(0 0% 100%);
+  --color-accent-glow: hsl(189 84% 63%);
+
+  /* Status colors */
+  --color-destructive: hsl(0 84% 60%);
+  --color-destructive-foreground: hsl(0 0% 100%);
+  --color-success: hsl(142 71% 45%);
+  --color-warning: hsl(38 92% 50%);
+
+  /* Borders and inputs */
+  --color-border: hsl(220 13% 91%);
+  --color-input: hsl(220 13% 91%);
+  --color-ring: hsl(189 84% 53%);
+
+  /* Border radius */
+  --color-radius: 0.75rem;
+
+  /* Gradients */
+  --color-gradient-hero: linear-gradient(135deg, hsl(220 13% 18%) 0%, hsl(220 30% 5%) 100%);
+  --color-gradient-card: linear-gradient(135deg, hsl(0 0% 100%) 0%, hsl(220 13% 99%) 100%);
+  --color-gradient-accent: linear-gradient(135deg, hsl(189 84% 53%) 0%, hsl(189 84% 63%) 100%);
+  --color-gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(220 13% 98%) 100%);
+
+  /* Shadows */
+  --shadow-soft: 0 1px 3px 0 hsl(220 13% 18% / 0.1), 0 1px 2px -1px hsl(220 13% 18% / 0.1);
+  --shadow-medium: 0 4px 6px -1px hsl(220 13% 18% / 0.1), 0 2px 4px -2px hsl(220 13% 18% / 0.1);
+  --shadow-large: 0 10px 15px -3px hsl(220 13% 18% / 0.1), 0 4px 6px -4px hsl(220 13% 18% / 0.1);
+  --shadow-glow: 0 0 0 1px hsl(189 84% 53% / 0.1), 0 10px 25px -5px hsl(189 84% 53% / 0.2);
+
+  /* Animations */
+  --color-transition-fast: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  --color-transition-base: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --color-transition-smooth: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.bg-gradient-subtle {
+  background: var(--color-gradient-subtle);
 }

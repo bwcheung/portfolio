@@ -1,0 +1,16 @@
+[
+  {
+    "primary": "Intermediate Software Developer",
+    "secondary": "Stormboard",
+    "date": "Novemeber 2020 - December 2024",
+    "description": "Developed and maintained full-stack web applications using JavaScript, PIXI.js, PHP, MySQL, and RESTful APIs. Contributed to AI-powered features using OpenAI, handled complex SQL queries, and integrated third-party services like Jira and Maxio. Helped migrate legacy systems, optimized performance, fixed bugs, and collaborated closely with designers, QA, and product managers to deliver scalable, maintainable solutions.",
+    "skills": ["Javascript", "PixiJS", "HTML", "CSS", "MYSQL", "OpenAI", "PHP"]
+  },
+  {
+    "primary": "Full-Stack Web Developer",
+    "secondary": "Society for Talent Education",
+    "date": "May 2019 - November 2020",
+    "description": "Maintained and enhanced WordPress-based websites using PHP, JavaScript, MySQL, HTML, and CSS. Led all IT tasks, including debugging, feature updates, and database management. Developed custom tools and applications to improve user experience and internal workflows, often working independently to analyze and improve legacy code.",
+    "skills": ["PHP", "Javascript", "MYSQL", "HTML", "CSS", "WordPress"]
+  }
+]

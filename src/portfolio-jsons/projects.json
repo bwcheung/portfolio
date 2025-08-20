@@ -1,0 +1,26 @@
+[
+  {
+    "primary": "Typ Off",
+    "description": "A speed typing game where you can play against your friends or against a CPU with different difficulty levels.",
+    "image": "/images/type-off.png",
+    "skills": ["React", "Nodejs", "Ruby", "Websocket", "ProstgresSQL", "Redis"],
+    "liveUrl": "https://typ-off.com",
+    "githubUrl": ""
+  },
+  {
+    "primary": "Resume game",
+    "description": "My first game made in React where you have to defeat my resume.",
+    "image": "/images/resume-game.png",
+    "skills": ["React", "Javescript", "HTML Canvas", "CSS"],
+    "liveUrl": "https://react-resume-125.pages.dev/Game",
+    "githubUrl": "https://github.com/bwcheung/ResumeGameProj"
+  },
+  {
+    "primary": "First Portofolio",
+    "description": "My first portoflio made in React. Hopefully showcasing my improvement developing in React",
+    "image": "/images/resume.png",
+    "skills": ["React", "Javescript", "HTML", "CSS"],
+    "liveUrl": "https://react-resume-125.pages.dev",
+    "githubUrl": "https://github.com/bwcheung/react-resume"
+  }
+]
