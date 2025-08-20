@@ -34,7 +34,7 @@ export const Main = () => {
               <img src={GitHubSVG} width={24} height={24}></img>
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/bwcheung/" 
               className="text-gray-300 hover:text-accent"
               aria-label="LinkedIn Profile"
             >
