@@ -51,13 +51,13 @@ export const Card = (props) => {
   const getImage = () => {
     if (!image) return ""
     return (
-      <div className="relative overflow-hidden">
+      <div className="relative overflow-hidden rounded">
         <img src={image} className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"></img>
         <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
           <a 
             href={links.live} 
             target="_blank" 
-            className="inline-flex bg-accent text-accent-foreground items-center justify-center gap-2 whitespace-nowrap font-semibold h-14 rounded-lg px-10 text-lg hover:scale-105 transition-all duration-300"
+            className="inline-flex bg-accent text-accent-foreground items-center justify-center gap-2 whitespace-nowrap font-semibold h-10 rounded-lg px-10 text-lg hover:scale-105 transition-all duration-300"
           >
               Try it!
           </a>
@@ -65,7 +65,7 @@ export const Card = (props) => {
             <a 
               href={links.github} 
               target="_blank" 
-              className="bg-white inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold h-14 rounded-lg px-10 text-lg hover:scale-105 transition-all duration-300"
+              className="bg-white inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold h-10 rounded-lg px-10 text-lg hover:scale-105 transition-all duration-300"
             >
               Github
             </a>) : ""}

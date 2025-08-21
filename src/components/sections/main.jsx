@@ -1,4 +1,4 @@
-import { getIcon } from "../utils/iconHelper"
+import { getIcon } from "../../utils/iconHelper"
 
 export const Main = () => {
   return (

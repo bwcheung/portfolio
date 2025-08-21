@@ -1,8 +1,8 @@
-import { Main } from './components/main'
-import { Projects } from './components/Projects'
-import { Skills } from './components/Skills'
-import { Experience } from './components/Experience'
-import { About } from './components/about'
+import { Main } from './components/sections/main'
+import { Projects } from './components/sections/projects'
+import { Skills } from './components/sections/skills'
+import { Experience } from './components/sections/experience'
+import { About } from './components/sections/about'
 
 function App() {
   return (

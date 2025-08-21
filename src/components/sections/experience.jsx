@@ -1,5 +1,5 @@
-import { Card } from "./ui/card"
-import experiencesJson from "../portfolio-jsons/experience.json"
+import { Card } from "../ui/card"
+import experiencesJson from "../../portfolio-jsons/experience.json"
 
 export const Experience = () => {
 

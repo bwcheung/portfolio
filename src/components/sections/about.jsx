@@ -1,4 +1,4 @@
-import { ImageAnimation } from "./ui/imageAnimation"
+import { ImageAnimation } from "../ui/imageAnimation"
 
 export const About = () => {
   return (
@@ -18,10 +18,10 @@ export const About = () => {
             <div>
               <h3 className="text-2xl font-semibold mb-4 text-primary">My Journey</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                I'm a passionate software developer with over 5 years of experience working on scalable web applications, building intuitive user interfaces, and developing robust backend systems.
+                I am a passionate software developer with over 5 years of experience working on scalable web applications, building intuitive user interfaces, and developing robust backend systems.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                I truly believe that programming is one of the most rewarding types of work one can do, so I'm always excited to take on new projects. 
+                I truly believe that software development is one of the most rewarding types of work because you get the instant feedback of seeing your code working live, so I'm always excited to take on new projects.
                 I see coding as an open-world game, where there are multiple paths to a solution, and it's up to the player to find the most effective one. 
                 This mindset became a passion for me, and now I have a long-term goal of someday developing my own web app, mobile app, or game. To achieve this, I stay motivated and eager to learn and gain new experience.
               </p>

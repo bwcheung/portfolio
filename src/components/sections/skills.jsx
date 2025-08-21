@@ -1,6 +1,6 @@
-import { Card } from "./ui/card"
-import { getIcon } from "../utils/iconHelper"
-import skillsJson from "../portfolio-jsons/skills.json"
+import { Card } from "../ui/card"
+import { getIcon } from "../../utils/iconHelper"
+import skillsJson from "../../portfolio-jsons/skills.json"
 
 export const Skills = () => {
 
