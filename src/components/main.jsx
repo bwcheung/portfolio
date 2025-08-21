@@ -25,7 +25,7 @@ export const Main = () => {
           
           <div className="flex gap-6 justify-center">
             <a 
-              href="https://github.com" 
+              href="https://github.com/bwcheung" 
               className="text-gray-300 hover:text-accent"
               aria-label="GitHub Profile"
             >
