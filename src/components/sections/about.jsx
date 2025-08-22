@@ -32,7 +32,7 @@ export const About = () => {
             </div>
           </div>
 
-          <div className="grid gap-6 grid-cols-[350px_350px]">
+          <div className="grid gap-6 grid-cols-[300px_300px]">
             <ImageAnimation base="/images/fukurou-front.jpg" hover="/images/fukurou-back.jpg" name="Fukurou" />
             <ImageAnimation base="/images/mode65-front.jpg" hover="/images/mode65-back.jpg" name="Mode65" />
             <ImageAnimation base="/images/tkl-front.jpg" hover="/images/tkl-back.jpg" name="ClassicTKL" />
