@@ -33,10 +33,10 @@ export const About = () => {
           </div>
 
           <div className="grid gap-6 grid-cols-[300px_300px]">
-            <ImageAnimation base="/images/fukurou-front.jpg" hover="/images/fukurou-back.jpg" name="Fukurou" />
-            <ImageAnimation base="/images/mode65-front.jpg" hover="/images/mode65-back.jpg" name="Mode65" />
-            <ImageAnimation base="/images/tkl-front.jpg" hover="/images/tkl-back.jpg" name="ClassicTKL" />
-            <ImageAnimation base="/images/zoom75-front.jpg" hover="/images/zoom75-back.jpg" name="Zoom75" />
+            <ImageAnimation base="/images/fukurou-front.png" hover="/images/fukurou-back.png" name="Fukurou" />
+            <ImageAnimation base="/images/mode65-front.png" hover="/images/mode65-back.png" name="Mode65" />
+            <ImageAnimation base="/images/tkl-front.png" hover="/images/tkl-back.png" name="ClassicTKL" />
+            <ImageAnimation base="/images/zoom75-front.png" hover="/images/zoom75-back.png" name="Zoom75" />
           </div>
         </div>
       </div>
