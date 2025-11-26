@@ -5,7 +5,7 @@
     "image": "/images/gacha.png",
     "skills": ["React", "Django", "Python", "Typescript", "REST API", "Tailwind CSS"],
     "liveUrl": "https://gacha-luck-builder.pages.dev/",
-    "githubUrl": ""
+    "githubUrl": "https://github.com/bwcheung/gacha-luck-builder"
   },
   {
     "primary": "Typ Off",
