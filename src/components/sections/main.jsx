@@ -2,7 +2,7 @@ import { getIcon } from "../../utils/iconHelper"
 
 export const Main = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="main" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 bg-gray-900 opacity-90" />
       
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center text-white">
