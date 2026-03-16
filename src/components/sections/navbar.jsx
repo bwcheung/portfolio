@@ -34,7 +34,7 @@ export const NavBar = () => {
 
   const activeIndex = sections.findIndex((s) => s.id === active)
   return (
-    <nav className="fixed left-5 top-0 z-50 hidden h-screen flex-col items-center md:flex">
+    <nav className="fixed left-3 top-0 z-50 hidden h-screen flex-col items-center xl:flex">
       <div className="flex h-16 items-center justify-center">
         <span className="text-sm font-semibold tracking-tight text-foreground"></span>
       </div>
